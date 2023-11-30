@@ -1,0 +1,21 @@
+- Create venv command:
+python -m venv env
+
+- Activate venv:
+Windows git: source env/Scripts/activate
+Windows cmd: .\env\Scripts\activate
+Linux: source env/bin/activate
+
+- Install aiogram: 
+pip install -U aiogram
+pip install --force-reinstall -v "aiogram==2.23.1"
+
+- Git Push Command:
+git config --global user.name "username"
+git config --global user.email "email"
+git add .
+git commit -m "done"
+git push origin main
+
+- Install Wikipedia:
+pip install wikipedia
